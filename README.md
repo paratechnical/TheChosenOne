@@ -19,12 +19,8 @@ Shout out to the authors for their great work, also please consider giving a sta
 ## Getting Started
 
 ### Installation and Prerequisites
-Install diffuser `0.24.0.dev0`:
-```
-git clone https://github.com/huggingface/diffusers
-cd diffusers
-pip install .
-```
+
+This will only work on Windows
 
 Clone the repository and install the required packages:
 ```
@@ -33,6 +29,16 @@ cd TheChosenOne
 pip install -r requirements.txt
 ```
 You also need to modify your configuration file in `config/theChosenOne.yaml` to fit your local environment.
+
+Update torch to use CUDA
+```
+pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118 --upgrade
+```
+
+Go to this address and download a proper driver for your graphics card and then install it
+```
+https://www.nvidia.com/Download/index.aspx
+```
 
 ### Data backup folder preparation
 You need to create a backup data folder to store the initial images generated in the first loop for faster training start up next time if you want to train on the same character again.
