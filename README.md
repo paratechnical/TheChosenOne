@@ -24,7 +24,7 @@ This will only work on Windows
 
 Clone the repository and install the required packages:
 ```
-git clone git@github.com:ZichengDuan/TheChosenOne.git
+git clone https://github.com/paratechnical/TheChosenOne.git
 cd TheChosenOne
 pip install -r requirements.txt
 ```
