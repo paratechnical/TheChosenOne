@@ -22,7 +22,7 @@ seed: 42
 character_name: rooster_P2B
 output_dir: ./experiments
 train_data_dir: ./loop_images
-backup_data_dir_root: /Users/andreiparaschiv/Documents/date/TheChosenOne/  # Your dataset backup folder
+backup_data_dir_root: C:\date de test\backup_pentru_stable_diffusion\  # Your dataset backup folder
 # lora_ckpt_dir: checkpoint-1200
 max_train_steps: 500
 num_of_generated_img: 128
